@@ -1,0 +1,62 @@
+{
+    "name": "kommandhub/shopware-plugin-boilerplate",
+    "description": "Kommandhub Shopware plugin boilerplate provides a solid starting point for developing custom Shopware 6 extensions. It includes pre-configured tools for testing and linting.",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kommandhub Limited",
+            "email": "info@kommandhub.com"
+        }
+    ],
+    "require": {
+        "kommandhub/foundation-sw": "^1.0.1",
+        "shopware/core": "~6.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kommandhub\\Shopware\\Boilerplate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kommandhub\\Shopware\\Boilerplate\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5",
+        "shopware/dev-tools": "^1.5",
+        "shopware/fixture-bundle": "^1.1",
+        "friendsofphp/php-cs-fixer": "^3.94",
+        "phpstan/phpstan": "^2.1",
+        "rregeer/phpunit-coverage-check": "^0.3.1"
+    },
+    "extra": {
+        "shopware-plugin-class": "Kommandhub\\Shopware\\Boilerplate\\ShopwarePluginBoilerplate",
+        "label": {
+            "de-DE": "Shopware Boilerplate",
+            "en-GB": "Shopware boilerplate"
+        },
+        "description": {
+            "de-DE": "Kommandhub Shopware-Plugin-Boilerplate bietet eine solide Basis für die Entwicklung von Shopware 6-Erweiterungen. Sie enthält Tools für Tests, Linting und Analysen für Ihren Code.",
+            "en-GB": "Kommandhub Shopware plugin boilerplate provides a solid starting point for developing custom Shopware 6 extensions. It includes pre-configured tools for testing and linting."
+        },
+        "manufacturerLink": {
+            "de-DE": "https://kommandhub.com",
+            "en-GB": "https://kommandhub.com"
+        },
+        "supportLink": {
+            "de-DE": "https://kommandhub.com/support",
+            "en-GB": "https://kommandhub.com/support"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": true
+        },
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
