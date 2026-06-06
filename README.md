@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.png" alt="Shopware Plugin Boilerplate Banner">
+</p>
+
 # Shopware Plugin Boilerplate
 
 A solid starting point for developing custom Shopware 6 extensions by Kommandhub.
